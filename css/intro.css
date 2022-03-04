@@ -1,0 +1,44 @@
+.logo {
+  margin-bottom: 0.625rem;
+}
+
+.question-content {
+  display: grid;
+  place-items: center;
+}
+
+.question-content > h1 {
+  font-family: var(--family-1);
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: var(--color-2);
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+
+.question-content > button {
+  font-family: var(--family-1);
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--color-1);
+  padding: 0.875rem 1rem;
+  background-color: var(--background-2);
+  border-radius: 5px;
+  border: 0.125rem solid var(--background-3);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1.125rem;
+  margin-bottom: 1.625rem;
+}
+
+.question-content > p {
+  font-family: var(--family-1);
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  text-align: center;
+  color: var(--color-2);
+  max-width: 23.75rem;
+}

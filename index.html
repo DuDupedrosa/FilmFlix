@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon">
+  <title>FilmFlix</title>
+  <meta name="description" content="Venha descobrir um bom filme para assistir
+  durante seu tempo livre.">
+
+  <!-- metas -ogs -->
+  <meta property="og:title" content="FilmFlix">
+  <meta property="og:description" content="Venha descobrir um bom filme para assistir
+  durante seu tempo livre.">
+  <meta property="og:type" content="Website">
+
+  <!-- fonts-externas / poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- links-css -->
+  <link rel="preload" href="./style.min.css" as="style">
+  <link rel="stylesheet" href="./style.min.css">
+</head>
+
+<body data-filme="body">
+  <section class="container" aria-label="Encontre um filme para assistir">
+    <div class="logo">
+      <img src="./img/logo.svg" alt="" width="88" height="63">
+    </div>
+    <div class="question-content">
+      <h1>Não sabe o que assistir?</h1>
+      <div class="content-film" data-filme="true">
+        <div class="content-film-img">
+          <img src="./img/Poster.png" alt="Foto de ilustração do filme" data-filme="img">
+        </div>
+        <div class="content-film-text">
+          <h2 data-filme="name">Os Caça-Fantasmas</h2>
+          <p data-filme="description">Em Nova York Peter Venkman, Ray Stantz e Egon Spengler são três cientistas do departamento de psicologia da Columbia University, que se dedicam ao estudo de casos paranormais. Quando a subvenção termina eles são despedidos e Venkman sugere que abram um negócio próprio, a exterminadora de fantasmas Ghostbusters. Inicialmente eles só têm despesas e nenhum cliente, mas eis que surge Dana Barrett, uma violoncelista que teve uma experiência assustadora em seu apartamento.
+          </p>
+        </div>
+      </div>
+      <div class="content-film-erro" data-filme="erro">
+        <div class="content-film-erro-img">
+          <img src="./img/Poster-1.png" alt="Poste-1" width="171" height="244">
+        </div>
+        <div class="content-film-erro-text">
+          <h2>Ops, hoje não é dia de assistir filme.
+            Bora codar!🚀<br><span class="callback-text">Clique novamente para uma nova busca!</span></h2>
+        </div>
+      </div>
+      <button data-filme="button"><span><img src="./img/shuffle-2.svg" alt="" width="36" height="36"></span> Encontrar filme</button>
+      <p>Clique em "Encontrar filme" que traremos informações
+        de algum filme para você assistir hoje.</p>
+    </div>
+  </section>
+  <script src="./main.js"></script>
+</body>
+
+</html>
